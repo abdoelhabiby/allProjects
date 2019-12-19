@@ -1,0 +1,56 @@
+body{
+	height: 5000px;
+	background-color:#F1F1F1; 
+}
+
+
+
+.contact-form{
+	max-width: 500px;
+	margin: 20px auto;
+	padding: 20px;
+
+}
+
+
+.contact-form textarea{
+	resize: none;
+}
+
+.contact-form .fsend{
+    position: relative;
+    top: 11px;
+    left: 24px;
+    color: #FFF;
+}
+
+
+.contact-form input[type="submit"]{
+    margin-right: 0;
+	width: 150px;
+	padding-left: 30px;
+}
+
+
+.elerrors{
+	margin: auto;
+}
+
+
+
+.contact-form  .form-group span{
+    position: relative;
+    top: 4px;
+    font-size: 27px;
+    color: red;
+
+}
+
+
+.contact-form  .form-group p{
+
+  margin-top: 10px;
+  margin-bottom: 0;
+  display: none;
+  
+}

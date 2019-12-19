@@ -1,0 +1,619 @@
+*{
+
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+
+body{
+	font-family: "Tahoma";
+
+}
+
+/*
+
+.navbar{
+height: 0;
+}
+
+.container{
+	width:1200px;
+	margin: auto;
+}
+
+.navbar h2{
+	margin: 13px 0 0 0;
+	padding:0;
+	font-size:26px;
+	color:#FFF;
+}
+
+.navbar .logo{
+	width:40%;
+	float:left;
+	text-align: center;
+}
+
+.navbar .links{
+	width:60%;
+	float:left;
+text-align: center;
+}
+
+
+.navbar ul{
+	list-style: none;
+}
+
+.navbar ul li{
+	display: inline;
+	margin: 10px;
+	font-size:20px;
+	color:#FFF; 
+}
+
+.navbar li .active{
+	color:black;
+	border-bottom: 1px solid black;
+}
+
+
+.navbar li:hover{
+	color:black;
+	border-bottom: 1px solid black;
+
+}
+
+
+.clear{
+	clear:both;
+}
+
+.header{
+	background-image:url("zero3.jpg");
+	background-size: 100% auto;
+
+}
+
+
+.header .thslider {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+width: 100%;
+height: 100%;
+}
+
+.header .bx-wrapper{
+	box-shadow:none;
+	border: none;
+	background: none;
+	padding-top:280px;
+
+}
+
+.header .bx-viewport{
+	text-align:center;
+}
+
+.slider div{
+	font-size: 25px;
+	color:#FFF;
+}
+
+.slider div span{
+	color:green;
+}
+
+.slider div p{
+	font-size: 22px;
+	color: #0e0e0e;
+}
+
+*/
+
+/*-----------------------------------------------------------------------------------*/
+
+.container{
+	width:1200px;
+	margin: auto;
+}
+
+.navbar2 {
+	background-image: url("zero3.jpg");
+	width:100%;
+	background-size: 100% auto;
+}
+
+.navbar2 h2{
+	margin: 25px 0 0 0;
+	padding:0;
+	font-size:26px;
+	color:#FFF;
+}
+
+
+.navbar2 .logo2{
+	width:40%;
+	float:left;
+	text-align: center;
+}
+.navbar2 .links2 ul{
+	list-style: none;
+
+}
+
+.navbar2 .links2 {
+	width:60%;
+	float: left;
+	text-align: center;
+}
+.navbar2 .links2 li{
+    display: inline-block;
+	margin: 10px;
+	font-size:20px;	
+	color:#FFF;
+}
+
+.navbar2 .active2{
+	color:green;
+	border-bottom: 1px solid black;
+}
+
+.navbar2 .links2 li:hover{
+	color:green;
+	border-bottom: 1px solid green;
+}
+
+.navbar2 .links2 li a{
+	text-decoration: none;
+	color:#FFF;
+}
+
+
+/* -------------------services---------------- */
+
+
+.services{
+	padding: 50px 0 0 0;
+	height: 580px;
+}
+
+.services h2{
+	margin-top: 0;
+	margin-left: 30px;
+	position: relative;
+	font-weight: normal;
+	margin-bottom: 50px;
+}
+
+.services h2:after{
+	content: "";
+    position: absolute;
+    display: block;
+    border: 1px solid black;
+    width: 40px;
+    top: 31px;
+    left: 3px;
+}
+
+i{
+	color:#2a822a;
+}
+
+.item{
+	width:33.333%;
+	float: left;
+	margin-bottom: 50px;
+}
+
+
+.item i{
+	width:30%;
+	float: left;
+	padding-top: 15px;
+}
+
+.item .ph{
+
+width:70%;
+float: left;
+
+}
+
+.item h3{
+	color:#373e37;
+	font-weight: normal;
+}
+
+.item p{
+	line-height: 1.7;
+	color: #797573;
+}
+
+/* --------------------------------------------- */
+
+
+hr{
+	border: .5px solid #d0cbcb;
+}
+
+
+/*----------------- our team -----------*/
+.Elteam{
+	padding-top: 30px;
+	height: 250px;
+}
+
+.Elteam h2{
+	position: relative;
+	font-weight: normal;
+}
+
+.Elteam h2:after{
+    content: "";
+    position: absolute;
+    display: block;
+    border: 1px solid black;
+    width: 40px;
+    top: 31px;
+    left: 3px;
+}
+
+.Elteam .Elteam_left{
+	width:35%;
+	float: left;
+}
+
+.Elteam .Elteam_left h2{
+	margin-top: 0;
+	font-weight: normal;
+}
+
+.Elteam .Elteam_left p{
+		line-height: 1.7;
+	color: #797573;
+}
+
+.Elteam_right{
+	width:65%;
+	float: left;
+	text-align: right;
+
+}
+
+.Elteam_right div{
+	float: left;
+	width:24%;
+	margin-left:1%; 
+	position:relative;
+
+}
+
+
+.Elteam_right img{
+	width:100%;
+}
+
+.Elteam_right div .overlay{
+
+position: absolute;
+top:0;
+left: -2px;
+right: 0;
+bottom: 0;
+height: 100%;
+width: 100%;
+background: rgba(26, 188, 156, .8);
+text-align: center;
+line-height: 195px;
+display: none;
+transition: all .8s ease-in-out;
+
+
+}
+
+.Elteam_right div:hover .overlay{
+	display: block;
+}
+
+
+/* --------------------------------------------- */
+
+/*------------------comments-------------------------*/
+
+.comments{
+	margin-top: 10px;
+	background-image: url("zero2.jpg");
+	width:100%;
+	background-size: 100% auto;
+	color:#FFF;
+	height: 300px;
+	position: relative;
+	text-align: center;
+}
+
+.test{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right:0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+}
+
+
+.comments h2{
+	font-size: 30px;
+	margin-top: 50px;
+	font-weight: normal;
+}
+
+.comments .thq{
+	width:800px;
+
+	margin: auto;
+	line-height: 1.8;
+	padding-top: 20px;
+}
+
+.comments p{
+	margin-top: 45px;
+	font-size: 20px;
+	color: #60ce60;
+}
+
+
+.comments .slider div{
+	display: none
+}
+
+
+.comments .slider .thq{
+	display: block;
+}
+/*----------------------------------------------------*/
+
+
+/*-----------------------myProjects-----------------------------*/
+
+
+.myProjects{
+
+	padding-top: 30px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+
+.myProjects h2{
+	position: relative;
+	font-weight: normal;
+}
+
+.myProjects h2:after{
+	content: "";
+	position: absolute;
+	display: block;
+	border: 1px solid black;
+    width: 41px;
+    top: 33px;
+}
+
+.myProjects ul{
+	list-style: none;
+	position: relative;
+	left:-40px;
+}
+
+.myProjects ul li{
+	display: inline-block;
+	padding:7px; 
+	border:1px solid green;
+	border-radius: 3px;
+	color:green;
+	margin: 2px;
+}
+
+.myProjects .actoo{
+	background: green;
+	color:#FFF;
+}
+
+.myProjects .photos{
+	overflow: hidden;
+}
+
+.myProjects .row1 > div{
+width:32.6666%;
+float:left;
+margin-bottom: 12px
+
+}
+.myProjects .photos .row1 img{
+	width:100%;
+	height: 100%;
+}
+
+.myProjects .photos .row1 > div:nth-child(2){
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+
+.myProjects .row1 div{
+
+	position: relative;
+}
+
+.myProjects .row1 > div .over{
+ position: absolute;
+ top: 0;
+ left: 0;
+ bottom:4px;
+ right: 0;
+ width: 100%
+ height:100%;
+ background: rgba(26, 188, 156, .8);
+ text-align: center;
+display: none; 
+
+}
+.row1 .over p{
+	padding:7px;
+	border: 1px solid #FFF;
+	width:120px;
+    margin:auto;
+    color:#FFF;
+    margin-top: 100px;
+ }
+
+.row1 .over span{
+	position: absolute;
+	color:#FFF;
+
+	right: 9px;
+	bottom: 4px;
+}
+
+.row1 .over i{
+	color:#FFF;
+}
+
+
+.myProjects .row1 > div:hover .over{
+	display: block
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------footer---------------------------*/
+
+
+.footer{
+	background: #232323;
+	color: #EEE;
+	padding-top: 40px;
+	overflow: hidden;
+	
+}
+
+
+.footer .container .col{
+	width: 25%;
+	float: left;
+
+}
+
+.footer h2{
+	font-weight: normal;
+	color:#e6e3e3;
+}
+
+.footer .col1 p{
+	color: #a59696;
+	line-height: 1.7;
+	width: 98%;
+}
+
+.footer .col1 i{
+	padding: 7px;
+	border: 1px solid #a59696;
+	color:  #d8c8c8;
+}
+
+.footer .col2 span{
+	color: #d8c8c8;
+	padding: 10px;
+	border: 1px solid #a59696;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.footer .allspan{
+	width:98%;
+	margin-top: 28px;
+}
+
+.footer .col3 .img1{
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.footer .col3 .img1 img{
+
+width:30%;
+height:80px;
+float: left;
+
+
+}
+
+.footer .col3 p{
+	width:70%;
+	float: left;
+	padding-left: 10px;
+	line-height: 1.7;
+	margin-top: 5px;
+}
+
+.footer .col3 span{
+	color: #a59696;
+}
+
+.clear{
+	clear: both;
+}
+
+.footer .col4 ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+
+}
+
+.footer .col4 li{
+	color: #a59696;
+	padding:10px 0 10px 0;
+	border-bottom: 1px solid  #a59696;
+} 
+
+.copyright{
+	color: #a59696;
+	padding-bottom: 30px;
+}
+
+/*----------------------------------------------------*/
+
+
+.navbar2,
+.services,
+.Elteam,
+.comments,
+.myProjects,
+.footer{
+	min-width: 1200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

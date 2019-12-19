@@ -1,0 +1,238 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+	height:2620px;
+}
+
+.header{
+	height:300px;
+	background: #403742f2;
+	color:#FFF;
+	font-family: Arial;
+}
+
+.container{
+	width:1150px;
+	margin: auto;
+}
+
+.theleft{
+	margin-top: 40px;
+	width: 50%;
+	float: left;
+	border-right: 1px solid #DDD;
+
+}
+
+
+.header .theleft h2{
+
+	width:45%;
+	line-height: 170%;
+	font-size: 23px;
+
+
+}
+
+.header .theleft h2 span:hover{
+	color:green;
+	cursor: pointer;
+}
+
+
+.theright{
+
+	width:44%;
+	float:right;
+	margin-top: 40px;
+	margin-left: 3px;
+
+}
+
+.header .theright p{
+	line-height: 170%;
+	width:49%;
+	font-size: 20px;
+}
+
+.header .theright .butt{
+	width:120px;
+	height: 30px;
+	background: #a71652c7;
+	color:#FFF;
+	font-size: 15px;
+	border:0;
+	border-radius: 20px; 
+	cursor:pointer;
+}
+
+.footer{
+	height: 300px;
+}
+
+.container2{
+	width: 1150px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+
+.footleft{
+	width:50%;
+	float:left;
+	border-right: 2px solid #b91fadc7;
+}
+
+.footleft p{
+	line-height: 170%;
+}
+
+.footleft button{
+text-transform: uppercase;
+width:150px;
+height: 30px;
+background: #b91fadc7;
+border:0;
+color:#FFF;
+border-radius:20px;
+}
+
+.footleft button:hover{
+	background: red;
+}
+
+.footright{
+	float:right;
+	width:47%;
+	font-size:20px;
+	line-height:170%;
+}
+
+.footright ul li{
+	list-style-type:armenian;
+	
+}
+
+.totry{
+	
+		border-bottom: 2px solid #b91fadc7;
+
+}
+
+ .under{
+ 	height: 420px;
+ 	background: #f2f2f2;
+
+ }
+
+ .container3{
+width:1150px;
+margin:auto;
+
+ }
+
+ .underleft{
+ 	margin-top:7px;
+ 	float:left;
+ }
+
+ .underright{
+ 	margin-top:50px;
+ 	width:46%;
+ 	float:right;
+ }
+ .underright p{
+
+ 	line-height: 170%;
+ 	font-size: 20px
+ }
+
+ .underright button{
+
+ 	border: none;
+ 	width: 100px;
+ 	height: 30px;
+ 	background:#9a8c8c;
+ 	border-radius:20px;
+ 	cursor:pointer;
+ }
+
+ .thelast{
+ 	height: 640px;
+ 	 	border-bottom: 2px solid #a71652c7;
+
+
+ }
+
+ .thelast p{
+ 	width:88%;
+ }
+
+ .container4{
+ 	width:1150px;
+ 	margin: auto;
+ }
+
+ .lastleft{
+ 	float:left;
+ 	line-height:170%;
+ 	margin-top: 50px;
+ 	width:50%;
+ 	border-right:1px solid green;
+ }
+
+form {
+}
+form input{
+	height:25px;
+	width: 230px;
+	outline: 0;
+}
+
+ .name{
+ 	margin-right: 20px;
+ }
+
+ fieldset{
+ 	width:90%;
+ 	color:green;
+ }
+
+ 
+ .submit{
+ 	margin-top: 20px;
+ 	border:none;
+ 	border-radius: 20px;
+ 	width:170px;
+ 	background: #a71652c7;
+ 	cursor:pointer;
+ 	color:#FFF;
+ 	text-transform: uppercase;
+ 	height:30px;
+
+ }
+
+ textarea{
+ 	margin-top: 30px;
+ 	outline: 0;
+ }
+
+ .lastright{
+ 	float:right;
+ 	width:45%;
+ 	margin-top: 100px;
+ 	margin-left:20px;
+ 	font-size: 20px;
+ 	line-height: 200%;
+ }
+
+ .lastright li{
+
+ 	list-style-type: armenian;
+ }
+ .end p{
+ 	margin-top: 20px;
+text-align: center;
+font-size: 20px;
+ }

@@ -1,0 +1,15 @@
+div 
+{
+height:405px;
+width:720px;
+
+	background-image:url('photo.jpg');
+   color:white;
+   /*background-color:#ddd;
+   line-height:150%;*/
+   text-align:center;
+  direction:rtl;
+
+
+
+}

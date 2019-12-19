@@ -1,0 +1,72 @@
+body{
+	background-image: url("../back.jpg");
+}
+
+.login form{
+	max-width:400px;
+	margin:100px auto;
+	background: rgba(0,0,0,0.4);
+    color: #c3b6b6;
+	padding: 40px;
+}
+
+
+.login form input[type='submit']{
+	margin-top: 10px;
+	width: 150px;
+	font-size: 18px;
+}
+
+.login form h2{
+	margin-top: 0 !important;
+	margin-bottom: 25px !important;
+}
+
+
+.login form span{
+	position: relative;
+    top: -11px;
+    left: 10px;
+    font-size: 17px;
+}
+
+.login form input{
+	margin-bottom: 40px;
+}
+
+@media (max-width:991px){
+.login form{
+	margin: 30px auto;
+}
+
+}
+
+
+
+.sigup form{
+	margin: 100px auto;
+    background: rgba(0,0,0,0.4);
+    color: #c3b6b6;
+    padding: 30px;
+}
+
+
+@media (max-width:991px){
+form{
+	margin: 50px auto;
+}
+
+}
+
+
+.sigup form h2{
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+
+.sigup form input{
+	margin-bottom: 15px;
+}
+
+

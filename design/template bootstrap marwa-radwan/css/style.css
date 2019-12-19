@@ -1,0 +1,315 @@
+body{
+	font-family: 'Open Sans';
+}
+
+
+
+
+
+.navbar-inverse .navbar-brand{
+	color:#FFF;
+	font-size: 25px;
+}
+
+
+.carousel-indicators .active {
+	background-color:#333 ;
+
+}
+
+
+.carousel-indicators li{
+	border:1px solid #333;
+}
+
+
+
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+		height: 650px !important;
+
+}
+
+
+@media(max-width: 767px){
+
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+		height: 320px !important;
+
+}
+
+}
+
+
+/*------service ----*/
+
+
+.service{
+
+	padding: 40px 0;
+}
+
+
+.service h2{
+	position: relative;
+	font-weight: bold;
+
+}
+
+hr{
+	width:80px;
+	border:1px solid #251e1e;
+}
+
+
+.service .serp{
+	font-size: 19px;
+	padding-top: 15px;
+}
+
+.service .row{
+	margin-top: 85px;
+}
+
+.service .row i{
+	color:green;
+}
+
+
+.service .row p{
+	font-size: 17px;
+	padding:5px; 
+}
+
+
+.service .row div{
+	margin-bottom: 25px;
+}
+
+
+@media (max-width: 767px){
+	.service .row p{
+	padding:10px 35px; 
+	line-height: 1.7;
+}
+
+}
+
+/*--------------end service---------------*/
+
+
+
+/*--------------our ortofolio----------------*/
+
+
+.Portofolio{
+	background: #EEE;
+    padding: 40px 0;
+
+}
+
+
+.Portofolio h2{
+	position: relative;
+	font-weight: bold;
+
+}
+
+
+.Portofolio .serp{
+	font-size: 19px;
+	padding-top: 15px;
+}
+
+.Portofolio .row{
+
+margin-top:40px;
+
+}
+.Portofolio .row div{
+	padding-bottom: 30px;
+}
+
+/*------------end our ortofolio----------------*/
+
+
+/*--------about us---------*/
+
+
+.aboutus{
+	padding: 40px 0;
+}
+
+
+
+.aboutus h2{
+	position: relative;
+	font-weight: bold;
+
+}
+
+
+.aboutus .serp{
+	font-size: 19px;
+	padding-top: 15px;
+
+}
+
+
+.aboutus .row{
+
+margin-top:50px;
+
+}
+
+.aboutus .row p{
+	color: #907e7e
+}
+
+
+.aboutus .row img{
+	height: 100%;
+}
+
+@media(min-width: 992px){
+	.aboutus .row p{
+	line-height: 1.6;
+	font-size: 18px;
+}
+}
+
+
+/*----------end about us----------------*/
+
+
+
+/*-------------team----------------*/
+
+.team{
+	padding: 40px 0;
+}
+
+
+
+.team h2{
+	position: relative;
+	font-weight: bold;
+
+}
+
+
+.team .serp{
+	font-size: 19px;
+	padding-top: 15px;
+
+}
+
+
+.team .row{
+
+margin-top:50px;
+
+}
+
+.team .row div h5{
+	font-weight: bold;
+}
+
+.team .row div{
+	margin-bottom: 25px;
+
+}
+
+.team .row span{
+	font-size: 18px;
+	display: block;
+	margin-bottom: 5px;
+	color:#333;
+}
+
+.team .row p{
+	font-size: 17px;
+	color: #ab9696;
+}
+
+.team .row img{
+
+border-radius: 50%;
+
+}
+
+/*--------------end team-------------*/
+
+
+
+/*--------------contact us----------------*/
+
+.contactus{
+	padding: 40px 0;
+	background: #EEE;
+}
+
+
+
+.contactus h2{
+	position: relative;
+	font-weight: bold;
+
+}
+
+
+.contactus .serp{
+	font-size: 19px;
+	padding-top: 15px;
+
+}
+
+
+.contactus .row{
+
+margin-top:50px;
+
+}
+
+.contactus .row i{
+	color:green;
+}
+
+.contactus .row p{
+	margin-top: 15px;
+}
+
+.contactus h4{
+	margin-top: 30px;
+}
+
+
+textarea{
+	resize: none;
+}
+
+/*------------end contact us---------------*/
+
+
+
+/*------------footer----------------*/
+
+footer{
+	padding: 30px;
+	background: #4cae4c;
+	color: #FFF;
+}
+
+footer i{
+	margin: 4px;
+
+}
+
+footer i:hover{
+	color: #EEE;
+	cursor: pointer;
+}
+
+
+
+/*------------end footer---------------*/

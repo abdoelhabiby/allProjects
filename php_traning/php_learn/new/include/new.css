@@ -1,0 +1,140 @@
+/* Start Main Rulez*/
+body{
+	background: #F4F4F4;
+	padding: 0;
+	margin:0;
+   font-family: Arial;
+ 
+}
+/* End Main Rulez*/
+
+.thetitle{
+margin-left:30%; 
+}
+
+.login{
+     
+     width:300px;
+     margin: 100px auto;
+}
+
+.login input{
+	height:30px;
+	width: 200px;
+text-align: center;
+display: block;
+margin-bottom: 30px;
+border:none;
+border-radius: 30px;
+outline: 0;
+}
+
+.login .submit{
+	width:100px;
+	border:none;
+	border-radius:20px;
+	margin-left: 50px;
+	cursor:pointer;
+}
+
+
+
+/*navbar */
+
+
+ .nav{
+ 	height:30px;
+ 	background: #382e2e;
+ 	padding-top: 10px;
+
+
+ }
+
+
+
+
+.navleft{
+
+	margin-left: 30px;
+	float: left;
+
+}
+
+ .nav a{
+ 	padding:10px;
+ 	font-size: 18px;
+ 	color: white;
+ 	text-decoration-line: none;
+
+
+ }
+
+ .nav .navright{
+ 	float:right;
+ 	color:white;
+ 	margin-right: 10px;
+ }
+
+
+.edit_profile{
+
+	width:700px;
+	margin: 50px auto;
+}
+
+.edit_profile h2{
+
+font-size: 40px;
+
+}
+
+.edit_profile .edit_form{
+	margin-left: 35%;
+		margin-top: 50px;
+
+}
+
+
+.edit_profile .inputs{
+
+	height:30px;
+	width: 200px;
+	text-align: center;
+	display: block;
+	margin-bottom: 30px;
+	border:none;
+	border-radius: 30px;
+	outline: 0;
+}
+
+.edit_profile  .submit{
+
+	width:80px;
+	height: 30px;
+	margin-left: 60px;
+	border:none;
+	border-radius:20px;
+	cursor:pointer;
+}
+
+
+.mad{
+
+	margin:30px;
+}
+
+
+.add_mem{
+
+	margin-left: 50px;
+}
+
+.container3{
+ 	width:1000px;
+ 	margin:100px auto;
+ 	color: red;
+ }
+
+ .container3 .theall{
+ 	display: inline;
+ }

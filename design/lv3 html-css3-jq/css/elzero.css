@@ -1,0 +1,613 @@
+*{
+
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+	box-sizing: border-box;
+
+}
+
+body{
+
+font-family: "Arial";
+}
+
+
+/* ---------------header------------ */
+
+.header{
+	overflow: hidden;
+	background-image:url("../image/header.jpg"); 
+	background-size:100% auto;
+	color:#FFF; 
+	position: relative;
+	height: 500px;
+}
+
+
+.header i{
+	margin-left: 10px;
+}
+
+.overlay{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(0,0,0,.2);
+}
+
+.container{
+	width: 1000px;
+	margin:auto;
+}
+
+.header .navbar h3{
+	float: left;
+	font-size: 22px;
+}
+
+.header .navbar .elmen{
+	float: right;
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+.itnro{
+	margin-top: 140px;
+}
+
+.itnro h2{
+	font-size: 50px;
+}
+
+.itnro button{
+	width:170px;
+	padding: 5px;
+	border:none;
+	background: none;
+	outline: 0;
+	color:#FFF;
+	border:1px solid #F7600e;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 30px;
+	transition: all .5s ease-in-out;
+}
+
+.itnro button:hover{
+	background: #F7600e;
+}
+.itnro button:first-of-type{
+	margin-right: 10px;
+}
+
+.chevron-down{
+	margin-top: 150px;
+	
+}
+
+.header .eli{
+	border:1px solid #e4d5d5;
+	border-radius: 50%;
+	padding: 5px; 
+}
+
+.header i:hover{
+	cursor: pointer;
+
+}
+
+
+/* ----------------------------- */
+
+/* ----------fearures-------------- */
+
+
+.features{
+	padding-top: 40px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.features .box p{
+	
+	margin: auto;
+	line-height:1.8;
+	color: #584d4d;
+}
+
+
+
+
+.features .box i{
+	border: 1px solid #c1acac;
+	border-radius: 50%;
+	padding: 20px;
+	color:#F7600e;
+	transition: all .5s ease-in-out;
+}
+
+.features .box h3{
+
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.features .box{
+	float: left;
+	width:21%;
+	margin-right: 5.33333%;
+}
+
+.features .box:last-of-type{
+	margin-right: 0;
+}
+
+
+.features .try{
+	background-color: black;
+}
+
+.features .box i:hover{
+	background:  #F7600e;
+	color: #FFF;
+	border:1px solid #F7600e;
+}
+
+/* ----------------------------- */
+
+/* --------------subscribe---------- */
+
+
+.subscribe{
+	margin-top: 40px;
+	height: 300px;
+	background: url(../image/zero.jpg);
+	background-size: cover; 
+	position: relative;
+	color: #FFF;
+	overflow: hidden;
+}
+
+
+.subscribe .overlay{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(0,0,0,.2);
+}
+
+.subscribe form{
+
+padding-top: 140px;
+text-align: center;
+
+}
+
+.subscribe form input{
+	border:none;
+	border:1px solid #c1acac;
+	border-radius: 4px;
+	outline: 0; 
+	padding: 7px;
+	width:280px;
+	margin-right: 10px;
+}
+
+.subscribe form button{
+	border:none;
+	border:1px solid #F7600e;
+	border-radius: 4px;
+	outline: 0; 
+	padding: 7px;
+	width:170px;
+	background: #F7600e;
+	color: #FFF;
+	cursor: pointer;
+}
+
+/* ----------------------------- */
+
+/* ------------ourwork----------- */
+
+.ourwork{
+	padding-top:40px; 
+	overflow: hidden;
+	text-align: center;
+
+}
+
+
+.ourwork h2 {
+	font-size: 30px;
+
+}
+.ourwork h2 span{
+	color:#F7600e;
+}
+.ourwork .ttp{
+	font-size:19px;
+}
+
+.ourwork p:last-of-type{
+	margin-bottom: 50px;
+}
+
+.ourwork .item-box {
+	overflow: hidden;
+}
+.ourwork .item-box img{
+	width:310px;
+	height: 290px;
+   border-radius: 10px;
+
+}
+
+
+.ourwork .item-box .item{
+	width: 31%;
+	float: left;
+	margin-left: 1.7%;
+	
+	margin-bottom: 20px;
+	position: relative;
+
+}
+
+
+
+.item-box .item:hover .theover{
+
+  display: block;
+}
+
+
+
+.item-box .item .theover{
+	position: absolute;
+	top: 0;
+	left:0;
+	color:#fdfaf9;
+	width: 100%;
+	height: 100%; 
+	background: rgba(247,96,14,.8);
+	border-radius: 10px;
+	margin: 0;
+	padding: 0;
+	display: none;
+	transition: all .5s ease-in-out; 
+
+}
+
+.item-box .item .theover h2{
+	font-weight: normal;
+}
+.item-box .item .theover p{
+	line-height: 1.7;
+}
+
+.item-box .item .theover button{
+
+	border:none;
+	border:1px solid #fdfaf9;
+	border-radius: 4px;
+	outline: 0; 
+	padding: 7px;
+	width:170px;
+	background: none;
+	color: #fdfaf9;
+	cursor: pointer;
+}
+
+.item-box .item .theover button:hover{
+    border:1px solid #F7600e;
+	background: #fff;
+	color:#F7600e;
+
+}
+
+.item-box .show{
+	margin-top: 30px;
+	border:none;
+	border:1px solid #F7600e;
+	border-radius: 4px;
+	outline: 0; 
+	padding: 7px;
+	width:170px;
+	background: #F7600e;
+	color: #FFF;
+	cursor: pointer;
+}
+
+
+.hidden{
+	display: none;
+}
+/* ----------------------------- */
+
+
+/*---------------------araa-------------------------*/
+.araa{
+	margin-top: 60px;
+	position: relative;
+	background: url("../image/zero.jpg");
+	background-size: cover;
+	height: 400px;
+	text-align: center;
+}
+
+.araa .client img{
+	border-radius: 50%;
+	margin-top: 30px;
+}
+
+.araa .client p{
+	padding-top:20px;
+	color: #FFF;
+	line-height: 1.7;
+	font-style:italic;
+	font-size: 19px;
+}
+
+
+.araa .client span{
+	color:#FFF;
+	font-style:italic;
+	font-size: 19px;
+}
+
+.toabso{
+	position: relative;
+}
+
+.araa i{
+	color: #999;
+	position: absolute;
+	cursor: pointer;
+}
+
+.fa-chevron-left{
+	top:50%;
+	left: 0;
+}
+
+
+.fa-chevron-right{
+	top:50%;
+	right: 0;
+}
+
+.fa-chevron-left:hover,.fa-chevron-right:hover{
+	color:#F7600e;
+}
+
+
+.araa .client{
+	display: none;
+}
+
+.araa .allow{
+display: block;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------ourteam-----------------------*/
+
+.ourteam{
+	padding: 40px 0;
+}
+
+
+
+.ourteam h2 {
+	font-size: 30px;
+	font-weight: normal;
+
+}
+.ourteam h2 span{
+	color:#F7600e;
+}
+
+.ourteam p{
+	color: #403a3a;
+}
+
+
+.elteam{
+	padding-top: 30px;
+	overflow: hidden;
+}
+
+
+.elteam .person{
+	float: left;
+	width: 24%;
+	margin-left: .77777%;
+	color: #888;
+	transition: all .5s ease-in-out;
+}
+
+.elteam .person img{
+	filter: gray;
+	filter: grayscale(1);
+}
+
+.elteam .person p{
+	font-size: 15px;
+	line-height: 1.7;
+}
+
+.elteam .person i{
+	background: #888;
+	color: #FFF;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	border-radius: 50%;
+}
+
+.elteam .person:hover{
+
+	transform: translate(0,-20px);
+}
+
+.elteam .person:hover img{
+	filter: none;
+	filter: grayscale(0);
+	border-bottom: 3px solid #F7600e;
+}
+
+.elteam .person:hover .fa-facebook{
+	background: #3b5998;
+}
+
+.elteam .person:hover .fa-twitter{
+	background: #1da1f2;
+}
+
+.elteam .person:hover .fa-google{
+	background: #dd4b39;
+}
+/*----------------------------------------------------*/
+
+
+
+/*--------------------contact------------------------*/
+
+.contact{
+	overflow: hidden;
+	padding: 40px 0;
+	position: relative;
+	background: url("../image/trt.jpg");
+	background-size:cover; 
+	height: 720px;
+	color: #FFF;
+}
+
+.contact h2 {
+	font-size: 30px;
+	padding-top: 50px;
+
+}
+.contact h2 span{
+	color:#F7600e;
+}
+
+.contact form{
+	width: 700px;
+	margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+.contact form input{
+	width:46%;
+	float: left;
+	padding:8px; 
+}
+
+.contact form input[type="text"]{
+}
+
+.contact form input[type="email"]{
+	float: right;
+}
+
+.contact form textarea{
+	width: 100%;
+	margin: 30px 0;
+
+}
+
+.contact form textarea,input{
+	border:1px solid #CCC;
+	border-radius: 8px;
+	outline: 0;
+
+}
+
+.contact form textarea[placeholder]{
+	padding:10px; 
+}
+
+.contact form .info{
+	overflow: hidden;
+	width: 100%;
+}
+.contact form .info button{
+
+    float: left;
+    border:none;
+	border:1px solid #F7600e;
+	border-radius: 4px;
+	outline: 0; 
+	padding: 7px;
+	width:170px;
+	background: #F7600e;
+	color: #FFF;
+	cursor: pointer;
+
+}
+
+
+
+/*----------------------------------------------------*/
+
+/*------------------------footer----------------------*/
+
+
+
+.footer{
+	background: #3b434c;
+	color: #fff;
+	overflow: hidden;
+	padding:30px 0; 
+}
+
+
+.footer .copyright{
+	float: left;
+}
+
+.footer .design{
+	float: right;
+}
+
+/*----------------------------------------------------*/
+
+
+
+
+
+
+
+/* ----------------------------- */
+
+
+.clear{
+	clear: both;
+}
+
+
+.upper{
+	text-transform: uppercase;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.main-color{
+	color:#F7600e;
+}

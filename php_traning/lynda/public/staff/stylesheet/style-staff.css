@@ -1,0 +1,49 @@
+h1,footer{
+	color:#FFF !important;
+}
+
+
+
+.content{
+	height: 500px;
+}
+
+
+@media (max-width: 767px){
+
+	.content{
+		height: 0;
+	}
+}
+
+.the{
+	background:#007bff;
+	color: #FFF;
+}
+
+
+.totry{
+	font-size: 100px;
+}
+
+
+.ved{
+	color: #FFF;
+}
+
+/*-------------form new subject -------------- */
+
+.n_subject{
+
+	    width: 500px;
+    margin: auto;
+}
+
+
+form{
+	max-width: 400px;
+}
+
+
+/*-------------end form new subject -------------- */
+

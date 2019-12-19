@@ -1,0 +1,409 @@
+*{
+
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+
+	padding: 0;
+	margin: 0;
+}
+
+
+:root{
+
+--colo-page: #f7e8e8; 
+
+}
+
+body{
+box-sizing: border-box;
+font-family: 'Flamenco', cursive;
+
+}
+
+
+
+.container{
+  
+  width:90%;
+  padding: 10px;
+  margin: auto;
+
+
+}
+
+
+
+header{
+	position: relative;
+	background-image: url(header2.jpg);
+	background-size:100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+
+.overlay{
+	position: absolute;
+	top: 0;
+	height: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(3,3,3,0.4);
+
+}
+
+
+
+header .logo{
+	margin-top: 15px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+
+}
+
+
+header .menu{
+		float: right;
+
+	margin-top: 40px;
+
+}
+
+header ul {
+	list-style: none;
+}
+
+
+header ul li{
+	display: inline-block;
+    padding: 10px;
+    font-size: 22px;
+}
+
+
+header ul li a{
+	color: var(--colo-page);
+	text-decoration: none;
+	
+}
+
+header ul li a:hover{
+
+border-bottom: 2px solid #FFF;
+
+}
+
+header .welcome{
+margin-top: 80px;
+}
+
+
+header .welcome h1{
+	font-size: 40px;
+	color: var(--colo-page);
+	line-height: 1.7;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+
+.welcome .toani{
+ 
+ animation: lunada 1s infinite ease-in-out;
+
+
+}
+
+@keyframes lunada{ from{color:#c3215d;} to{color:var(--colo-page);} }
+
+
+.welcome button{
+	border:none;
+	background: none;
+	border:1px solid var(--colo-page);
+	font-size: 21px;
+	padding: 5px;
+    height: 40px;
+	width: 210px;
+	border-radius: 30px;
+	margin-right: 10px;
+	margin-top: 50px;
+	margin-bottom: 30px; 
+	outline: 0;
+}
+
+.welcome a{
+	color: var(--colo-page);
+	text-decoration: none;
+}
+
+.welcome a:hover{
+	border-bottom: 2px solid #c3215d;
+	color:#c3215d;
+
+}
+
+
+
+.menupar{
+	float: right;
+	display: none;
+	width: 150px;
+	border:none;
+	background: inherit;
+	color: #FFF;
+	border: 2px solid var(--colo-page);
+	border-radius: 20px;
+	outline: 0;
+	cursor: pointer;
+	padding:3px; 
+	font-size: 18px;
+
+
+}
+
+
+
+
+
+
+@media (max-width: 991px){
+
+header{
+	height: 670px !important; 
+}
+
+
+.menupar{
+	display: block;
+	position: relative;
+	margin-top: 30px;
+	width: 120px;
+
+}
+
+
+
+header ul {
+	display: none;
+	position: absolute;
+	margin-top: 60px;
+	background: rgba(0,0,0,0.4);
+}
+
+
+header ul li a{
+		font-size: 19px ;
+
+}
+
+
+header .welcome h1{
+ 
+ font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width : 551px ){
+
+
+.tof{
+	display: flex;
+	/*justify-content: space-around;*/
+
+}
+
+.welcome button{
+	border:none;
+	background: none;
+	border:1px solid var(--colo-page);
+	font-size: 15px !important;
+	padding: 5px;
+    height: 45px;
+	width: 200px;
+	border-radius: 30px;
+	margin:0;
+   margin-top: 40px;
+
+
+
+}
+
+.welcome button:first-of-type{
+
+	   margin-right: 5px;
+
+}
+
+
+
+
+
+header .logo{
+	margin-top: 15px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+
+
+.menupar{
+	display: block;
+	position: relative;
+	margin-top: 15px;
+	width: 120px;
+
+}
+
+
+
+
+
+}
+
+/*------------------------------------*/
+
+/*
+
+.toright{
+		float: right;
+
+
+}
+
+.dropdown button {
+    float: right;
+	display: none;
+	width: 150px;
+	border:none;
+	background: #333;
+	color: #FFF;
+	border: 2px solid var(--colo-page);
+	border-radius: 20px;
+	outline: 0;
+	cursor: pointer;
+	padding:3px; 
+	font-size: 18px;
+
+
+
+
+}
+
+.dropdown ul{
+	list-style: none;
+	margin-top: 28px;
+	border-radius: 10px 10px 0 0;
+
+}
+
+.dropdown ul li{
+	display: inline-block;
+	padding:10px;
+	font-size: 20px; 
+}
+
+
+@media (max-width: 567px) and (max-width: 991px){
+
+
+
+.dropdown button {
+	display: block;
+	position: relative;
+}
+
+
+.dropdown ul{
+	display: none;
+}
+
+.dropdown ul{
+    background: rgba(0,0,0,0.4);
+	color:#FFF;
+	position: absolute;
+	width: 150px;
+
+}
+
+.dropdown ul li{
+	display: block;
+}
+
+
+
+
+
+}
+
+
+
+.submenu {
+	position: relative;
+	transition: all .6s ease-in-out;
+}
+
+.submenu ul{
+	position: absolute;
+	width: 110px;
+	background: #333;
+	color:#FFF;
+	display: none;
+	margin: 0;
+
+}
+
+.submenu ul li{
+	width:100%;
+}
+
+.submenu ul li:hover{
+	background: orange;
+	color:#333;
+}
+
+
+.submenu:hover ul{
+	display: block;
+}
+
+
+@media (max-width: 991px){
+
+ .submenu ul{
+	display: none !important;
+}
+
+
+.submenu:hover ul{
+	display: block !important;
+}
+
+
+}
+
+
+*/
+
+.clearfix{
+	clear: both;
+}

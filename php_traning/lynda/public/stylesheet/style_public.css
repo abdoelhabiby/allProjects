@@ -1,0 +1,34 @@
+.content{
+	height: 496px;
+}
+
+.imhead{
+  
+  background: #e03e52;
+  padding: 20px;
+
+}
+
+
+
+.navl{
+	background: #8b9094;
+	color:#fffdfd;
+}
+
+.container,.navli{
+		height: 100%;
+
+}
+
+.fhea{
+	font-size:21px; 
+}
+
+footer{
+	background: #8b9094;
+}
+
+a{
+	color: #FFF;
+}
